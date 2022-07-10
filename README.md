@@ -5,11 +5,12 @@ Esse é o repositório com a base de JSON-Server + JSON-Server-Auth já configur
 
 ## Endpoints
 
-​
+
 A API tem endpoints desenvolvidas para aplicação configurados conforme abaixo:
-​
+
 url base da API é: https://kenzieshopapi.herokuapp.com/
-​
+
+
 
 ### Cadastro do user
 
