@@ -18,20 +18,28 @@ url base da API é: https://kenzieshopapi.herokuapp.com/
 Para acessar a plataforma é necessário, fazer o cadastro do usuário.
 ​
 POST /register
-​
+
+
 {
 "email": "kenzinho@mail.com",
+
 "password": "12345",
+
 "name": "Kenzinho",
+
 "lastName": "kenzado",
+
 "tel": 914431544,
+
 "isAdm": true
 }
-​
+
+
 Caso dê tudo certo, a resposta será assim:
-​
+
 POST /register - FORMATO DA RESPOSTA - STATUS 201
-​
+
+
 {
 "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Inh4ZGFya2x1Y2FzeHhAaG90bWFpbC5jb20iLCJpYXQiOjE2NTc0NzYyNzIsImV4cCI6MTY1NzQ3OTg3Miwic3ViIjoiMiJ9.7P5mVf4UGp0wc4Pq5hKqr4qBn38cYv4pYTXWYzDzn5I",
 "user": {
