@@ -41,13 +41,22 @@ POST /register - FORMATO DA RESPOSTA - STATUS 201
 
 
 {
-"accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Inh4ZGFya2x1Y2FzeHhAaG90bWFpbC5jb20iLCJpYXQiOjE2NTc0NzYyNzIsImV4cCI6MTY1NzQ3OTg3Miwic3ViIjoiMiJ9.7P5mVf4UGp0wc4Pq5hKqr4qBn38cYv4pYTXWYzDzn5I",
+"accessToken":
+
+"eyJhbGciOiJIUzI1NiI45I6IkpXVCJ9.eyJlbWFpbCI6Inh4ZGFya2x1Y2FzeHhAaG90bWFpbC5jbãsS8WA8D760iLCJpYXQiOjE2NTc0NzYyNzIsImV4cCI6MTY1NzQ3OTg3MiS677wic3ViIjoiMiJ9.7P5mVf4UGp0w46c4P4674qBn38cYv4pYTXW456YzDzn5I",
+
 "user": {
+
 "email": "kenzinho@mail.com",
+
 "name": "Kenzinho",
+
 "lastName": "kenzado",
+
 "tel": 914431544,
+
 "isAdm": true,
+
 "id": 2
 }
 }
@@ -66,13 +75,22 @@ Caso dê tudo certo, a resposta será assim:
 ​
 POST /login - FORMATO DA RESPOSTA - STATUS 200
 {
-"accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Inh4ZGFya2x1Y2FzeHhAaG90bWFpbC5jb20iLCJpYXQiOjE2NTc0NzYzNTMsImV4cCI6MTY1NzQ3OTk1Mywic3ViIjoiMiJ9.zErG2B768U3JKzE8HoaHOptFIsei-LNiPHhdetPNt28",
+"accessToken":
+
+"eyJhbG789iJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI64564G89HhAaG90bWFpbC5789LCJpYXQiOjE2NTc0NzYzNTMsImV4cCI6MTY1NzQ3OTk1Mywic3ViIjoiMiJ9.zErG2B798U3JKzE8HoaHOptFIsei-7897PHhdetPNt28",4
+
 "user": {
+
 "email": "kenzinho@mail.com",
+
 "name": "Kenzinho",
+
 "lastName": "kenzado",
+
 "tel": 914431544,
+
 "isAdm": true,
+
 "id": 2
 }
 }
@@ -86,45 +104,74 @@ Get /food
 [
 {
 "name": "Quarteirão Duplo",
+
 "img": "https://www.imagensempng.com.br/wp-content/uploads/2021/06/03-21.png",
+
 "description": "O Quarteirão Duplo possui 2 hambúrgueres de extrema qualidade com um pão con gergelim e salada.",
+
 "price": 30,
+
 "id": 1
 },
 {
 "name": "X-Tudo",
 "img": "https://www.imagensempng.com.br/wp-content/uploads/2021/08/02-19.png",
+
 "description": "O X-Tudo e o hambúrguer perfeito para matar sua fome, com produtos de excelente qualidades.",
+
 "price": 28,
+
 "id": 2
+
 },
+
 {
 "name": "Combo com Tudo",
+
 "img": "https://www.imagensempng.com.br/wp-content/uploads/2021/02/18-2.png",
+
 "description": "Combo com um copo de 600 de um refrigerante da sua escolha, uma batata media d e um Hambúrguer ganhe mais suculento e com 2 amburgues",
+
 "price": 34,
+
 "id": 3
+
 },
 {
 "name": "X-Frango",
+
 "img": "https://www.imagensempng.com.br/wp-content/uploads/2021/06/08-8.png",
+
 "description": "O X-frango e o hambúrguer perfeito para matar sua fome e com um hambúrguer de frango suculento, com produtos de excelente qualidades.",
+
 "price": 32,
+
 "id": 4
+
 },
 {
 "name": "Prato Executivo",
+
 "img": "https://www.imagensempng.com.br/wp-content/uploads/2021/07/01-1.png",
+
 "description": "Arroz, salada, palmito. ervilha, legumes no vapor com um frango grelhado de deixar agua na boca.",
+
 "price": 19,
+
 "id": 5
+
 },
 {
 "name": "Porção de Batata Grande",
+
 "img": "https://www.imagensempng.com.br/wp-content/uploads/2021/08/05-4.png",
+
 "description": "Porção de batata suculenta e sequinhas",
+
 "price": 20,
+
 "id": 6
+
 }
 ]
 
@@ -135,19 +182,28 @@ Authorization: Bearer {token}
 POST/food
 {
 "name": "Quarteirão ",
+
 "img": "https://www.imagensempng.com.br/wp-content/uploads/2021/06/03-21.png",
+
 "description": "O Quarteirão Duplo possui 2 hambúrgueres de extrema qualidade com um pão con gergelim e salada.",
+
 "price": 30
+
 }
 
 ​Caso dê tudo certo, a resposta será assim:
 
 {
 "name": "Quarteirão ",
+
 "img": "https://www.imagensempng.com.br/wp-content/uploads/2021/06/03-21.png",
+
 "description": "O Quarteirão Duplo possui 2 hambúrgueres de extrema qualidade com um pão con gergelim e salada.",
+
 "price": 30,
+
 "id": 7
+
 }
 
 PATH/food/:id
@@ -158,11 +214,17 @@ PATH/food/:id
 ​​Caso dê tudo certo, a resposta será assim:
 
 {
+
 "name": "Quarteirão ",
+
 "img": "https://www.imagensempng.com.br/wp-content/uploads/2021/06/03-21.png",
+
 "description": "O Quarteirão Duplo possui 2 hambúrgueres de extrema qualidade com um pão con gergelim e salada.",
+
 "price": 5,
+
 "id": 1
+
 }
 
 DELETE/food/:id
